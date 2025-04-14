@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+
+<html><head><style>
+
+a:link {	
+	color: orange;
+	text-decoration: none;
+		}
+		
+a:visited {	
+	color: orange;
+	text-decoration: none;
+		}
+
+.container {
+	position: relative;
+	font-family: Arial;
+		}
+
+.text-block {
+	width: 80%;
+	border-radius: 10px;
+	position: relative;
+	float: left;
+	bottom: 0px;
+	left: 0px;
+	background-color: #333;
+	color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+		}
+		
+		
+.contatti {
+	width: 80%;
+	border-radius: 25px;
+	position: relative;
+	float: center;
+	bottom: 0px;
+	left: 0px;
+	background-color: #333;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+		}
+		
+
+.aggiornamenti {
+	width: 100px;
+	border-radius: 500px;
+	position: relative;
+	float: center;
+	bottom: 0px;
+	left: 0px;
+	background-color: #333;
+	color: red;
+	padding-left: 20px;
+	padding-right: 20px;
+		}
+
+
+.titolo {
+	float: center;
+	width:250px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 20px;
+	background-color: #333;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+		}
+		
+.accessi {
+	float: center;
+	width: 60px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 20px;
+	background-color: #333;
+	color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+		}
+
+body {
+	border: 0px solid black;
+	padding: 50px;
+	background: url(HomeDarkBlue.JPG);
+	background-repeat: no-repeat;
+	background-size: auto;
+		}
+
+ul {
+	border-radius: 5px;
+	width: 100%;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+		}
+
+li {
+  	float: left;
+		}
+
+li a,
+.dropbtn {
+	display: inline-block;
+  	color: black;
+ 	text-align: center;
+  	padding: 10px 10px;
+	text-decoration: none;
+		}
+		
+li.dropdown {
+	border-radius: 5px;
+	display: inline-block;
+		}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #333;
+	min-width: 160px;
+	box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.25);
+ 	z-index: 1;
+		}
+
+.dropdown-content a {
+	color: orange;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+		}
+
+.dropdown:hover
+
+.dropdown-content {
+	display: block;
+		}
+
+#boxes {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#column1 {
+	position: relative;
+	float: left;
+	color: white;
+	background-color: #333;
+	width: 30%
+}
+
+#column1a {
+	position: relative;
+	float: left;
+	color: white;
+	background-color: #333;
+	width: 15%
+}
+
+#column2 {
+	position: relative;
+	float: right;
+	color: white;
+	background-color: #333;
+	width: 65%
+}
+
+.popup {
+		position:	relative;
+		display:	inline-block;
+		cursor:	pointer;
+		-webkit-user-select:	none;
+		-mos-user-select:	none;
+		-ms-user-select:	none;
+		user-select:		none;
+		background-color: #333;
+		color: #orange;
+  		border-radius: 5px;
+  		padding: 5px 0;
+  		position: absolute;
+  		z-index: 1;
+  		padding-left: 5px;
+		padding-right: 10px;
+	}
+
+.pop-header {
+		width: 50%;
+		background-color: #000;
+		height: 50px;
+		padding: 20px;
+	}
+
+.popup .popuptext {
+  	visibility: hidden;
+  	width: 150px;
+  	background-color: #555;
+  	color: #fff;
+ 	text-align: center;
+  	border-radius: 8px;
+  	padding: 8px 0;
+  	position: absolute;
+  	z-index: 1;
+  	bottom: 25%;
+  	left: 130%;
+  	margin-left: -150px;
+  	padding-left: 5px;
+	padding-right: 20px;}
+
+.popup .show {
+	 visibility: visible;
+  	-webkit-animation: fadeIn 1s;
+ 	animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+</style></head>
+<body style="text-align:center">
+<center>
+
+<title>Home Page di Mattia Puddu</title>
+
+<strong>
+<center>	
+	<div class="titolo">
+		<p style="font-size:20px"; align="center">Home Page di Mattia Puddu
+		</p>
+	</div>
+
+</strong>
+</center>
+
+<ul>
+
+<li><a href="index.html">Home</a>
+</li>
+
+
+
+
+
+<li class="dropdown">
+	<a href="javascript:void(0)" class="dropbtn">Secondo anno</a>
+	<div class="dropdown-content">
+		<a href="Algebra1/Algebra1.html">Algebra 1</a>
+		<a href="Geometria2/G2.html">Geometria 2</a>
+	</div>
+</li>
+
+
+
+
+<li class="dropdown">
+	<a href="javascript:void(0)" class="dropbtn">Corsi opzionali</a>
+	<div class="dropdown-content">
+		<a href="AGLie/AlgLie.html">Algebre e Gruppi di Lie</a>
+		<a href="TNE/TNE.html">Teoria dei Numeri Elementare</a>
+		<a href="FormeModulari/FModulari.html">Forme Modulari</a>
+		<a href="ETA/ETA.html">Elementi di Topologia Algebrica</a>
+		<a href="EAC/EAC.html">Elementi di Analisi Complessa</a>
+		<a href="EGA/EGA.html">Elementi di Geometria Algebrica</a>
+		<a href="../AGC/AGC.html">Geometria Algebrica C</a>
+		<a href="Rappresentazioni/Rappresentazioni.html">Gruppi e Rappresentazioni</a>
+		<a href="TAN1/TAN1.html">Teoria Algebrica dei Numeri 1</a>
+	</div>
+</li>
+
+
+
+<li><a href="Istituzioni/Algebra/IstAlg.html">Istituzioni</a></li>
+
+
+<li><a href="Triennale/TesiTriennale.html">Tesi Triennale</a></li>
+
+
+
+<li><a href="Olimpiadi/Olimpiadi.html">Olimpiadi</a></li>
+ 
+<li><a href="CV.pdf" id="cvLink">Il mio CV</a></li>
+        
+<li><a href="Templates/Templates.html">Templates LaTeX</a></li>
+
+
+
+
+
+<li><a href="Altro/Altro.html">Altro</a></li>
+
+</ul>
+<br>
+
+</head>
+
+<div style="text-align: center;">
+<div id="column2", class="text-block", style="text-align: left; margin-left: 10px; padding-left: 5px">
+<center><p><h4>Ultimi aggiornamenti</h4></p></center>
+<h4>14/08/2024</h4>
+Aggiornati i file con le soluzioni dei problemi delle gare a squadre di Cesenatico: ora sono presenti tutte le soluzioni dal 2006 al 2024.<br>
+
+<h4>26/03/2024</h4>
+Corrette alcune imprecisioni nel codice dei Templates LaTeX: adesso gli headers sono visualizzati meglio, e ho aggiunto una seconda versione per la pagina del titolo della classe 'book' (pi&ugrave adatta ad esempio per una tesi)<br>
+
+<h4>17/03/2024</h4>
+Aggiornati, in una versione pressoch&eacute definitiva i file contenenti le soluzioni dei problemi delle Olimpiadi di Matematica delle gare a squadre di Cesenatico. Per i futuri aggiornamenti a questi file si veda la sezione "Errata Corrige & Aggiunte" contenuta nei due file<br>
+
+
+<h4>11/03/2024</h4>
+Ho ricevuto una segnalazione relativa al malfunzionamento dei link per i templates LaTeX, quindi li ho aggiornati<br>
+
+<h4>01/10/2023</h4>
+Aggiornati tutti i templates latex, in una versione pressoch&eacute completa: sono state aggiunte le funzionalit&agrave di tikz e pgfplots ed &egrave stato rivisto parecchio in alcuni aspetti grafici. Tutti i templates spiegano nel pdf che viene compilato tutte le funzionalit&agrave aggiunte e nel caso di beamer spiegano come utilizzare anche le funzioni della classe<br>
+
+<h4>27/08/2023</h4>
+Aggiunta la sezione "Geometria Algebrica C" con il seminario preparato per l'esame.<br>
+
+<h4>21/02/2023</h4>
+Aggiunta la sezione "Teoria Algebrica dei Numeri 1" con i miei appunti in LaTeX del corso.<br>
+
+<h4>7/11/2022</h4>
+Aggiornata l'appendice sulle partizioni di un insieme e di un intero positivo nel file delle soluzioni dei problemi delle semifinali di Cesenatico.<br>
+
+<h4>14/09/2022</h4>
+Aggiunta la sezione "Gruppi e Rappresentazioni" con alcune note ed esercizi del corso.<br>
+
+<h4>11/07/2022</h4>
+Aggiornati in maniera definitiva gli appunti di "Elementi di Topologia Algebrica"; resta una parte scritta a mano su un tablet che forse prima o poi porter&ograve su LaTeX.<br>
+
+
+<h4>28/04/2022</h4>
+Aggiunte due Appendici al file con le soluzioni dei problemi delle semifinali a squadre di Cesenatico: una riguarda il parallelogramma di Varignon, l'altra il numero di partizioni di un insieme e di un intero positivo: non sono utilizzate all'interno del file per risolvere degli esercizi, ma sono argomenti interessanti per altri problemi di carattere olimpico, come alcuni delle finali; l'ultima delle due appendici si poggia in parte su quella relativa alle funzioni generatrici, che &egrave stata aggiornata per introdurre alcune notazioni.<br>
+
+
+<li><a href="AggiornamentiOld.txt"> Aggiornamenti meno recenti</a></li>
+
+<br><br>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="column1", class="text-block">Studio matematica all'universit&agrave di Pisa, perdendo fin troppo tempo tra un esame e quello successivo. Qui si trovano appunti e note che scrivo in LaTeX o a mano. Per qualsiasi segnalazione, chiarimento, suggerimento o nel caso ci sia qualche link non funzionante (a volte la condivisione si interrompe quando aggiorno un file...) mi si pu&ograve contattare all'indirizzo mail qui sotto.
+<br><br>
+<p><h4>Contatti: mattiapuddu@icloud.com</h4></p>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div id="column1a", class="accessi">Accessi singoli<br>
+<a href="http://www.hitwebcounter.com" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=7106684&style=0038&nbdigits=4&type=ip&initCount=0" title="Counter for tumblr" Alt="Counter for tumblr"   border="0" >
+</a><br/>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</body>
+
+
+<script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+function myFunction2() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
+</script>
+
+</html>
